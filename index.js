@@ -11,10 +11,10 @@ btn.addEventListener("click", function() {
 })
 
 btn2.addEventListener("click", function() {
-    body.style.backgroundColor = "red"
+    body.style.backgroundColor = "blue"
     body.style.color = "white"
     setTimeout(function() {
-        body.style.backgroundColor = "teal"
+        body.style.backgroundColor = "red"
         body.style.color = "black"
     }, 2000)
 })
